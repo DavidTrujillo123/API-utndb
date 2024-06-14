@@ -17,4 +17,4 @@ app.get("/", (req, res) => {
 app.use(require("../routes/index.route.js"));
 
 app.listen(3001);
-console.log("Server running in: http://localhost:3001");
+// console.log("Server running in: http://localhost:3001");
