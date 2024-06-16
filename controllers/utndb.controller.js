@@ -207,7 +207,7 @@ const getEstudianes = async (req, res) => {
         [id]
       );
 
-      const nivel = await db.any(
+      const nivel = await db.one(
         `
         SELECT n.ni_id, n.ni_nivel
         FROM estudiante_asignatura ea

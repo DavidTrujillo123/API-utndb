@@ -345,12 +345,10 @@ const table = `
                 "est_apellido": "Vega"
               }
           ],
-          "nivel": [
-              {
-                "ni_id": 1,
-                "ni_nivel": "Nivel 1"
-              }
-          ],
+          "nivel":{
+            "ni_id": 1,
+            "ni_nivel": "Nivel 1"
+          },
           "asignaturas": [
               {
                 "as_id": 1,
