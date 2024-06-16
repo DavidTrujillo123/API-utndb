@@ -400,12 +400,10 @@ const table = `
       <td>getRoles</td>
       <td><pre><code>
         {
-          "roles": [
-            {
+          "roles": {
               "ro_id": 4,
               "ro_nombre": "Decano"
-            }
-          ],
+          },
           "profesores": [
             {
               "pr_id": 2,
