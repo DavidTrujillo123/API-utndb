@@ -164,7 +164,7 @@ const getRoles = async (req, res) => {
   try {
     const { id } = req.params;
     if (id) {
-      const roles = await db.any(`SELECT * FROM roles WHERE ro_id = $1`, [id]);
+      const roles = await db.one(`SELECT * FROM roles WHERE ro_id = $1`, [id]);
 
       const profesores = await db.any(
         `
