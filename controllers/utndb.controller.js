@@ -187,7 +187,7 @@ const getRoles = async (req, res) => {
   }
 };
 
-const getEstudianes = async (req, res) => {
+const getEstudiantes = async (req, res) => {
   try {
     const { id } = req.params;
     if (id) {
@@ -239,5 +239,5 @@ module.exports = {
   getAsignaturas,
   getProfesores,
   getRoles,
-  getEstudianes,
+  getEstudiantes,
 };

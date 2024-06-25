@@ -38,8 +38,6 @@ const table = `
   }
 </style>
 
-<!-- Aquí tu tabla HTML -->
-
 <table border="1">
   <thead>
     <tr>
@@ -214,7 +212,10 @@ const table = `
         "profesor": {
           "pr_id": 1,
           "pr_nombre": "Juan",
-          "pr_apellido": "Pérez"
+          "pr_apellido": "Pérez",
+          "pr_email": "juperez@utn.edu.ec",
+          "pr_contrasenia": "12345",
+          "pr_usuario": "D100200301"
         },
         "asignaturas": [
           {
@@ -245,17 +246,26 @@ const table = `
         {
           "pr_id": 1,
           "pr_nombre": "Juan",
-          "pr_apellido": "Pérez"
+          "pr_apellido": "Pérez",
+          "pr_email": "juperez@utn.edu.ec",
+          "pr_contrasenia": "12345",
+          "pr_usuario": ""D100200301"
         },
         {
           "pr_id": 2,
           "pr_nombre": "Laura",
-          "pr_apellido": "González"
+          "pr_apellido": "González",
+          "pr_email": "lagonzalez@utn.edu.ec",
+          "pr_contrasenia": "12345",
+          "pr_usuario": "D100200302"
         },
         {
           "pr_id": 3,
           "pr_nombre": "Carlos",
-          "pr_apellido": "Martínez"
+          "pr_apellido": "Martínez",
+          "pr_email": "camartinez@utn.edu.ec",
+          "pr_contrasenia": "12345",
+          "pr_usuario": "D100200303"
         }
       ]</code></pre>
       </td>
@@ -343,6 +353,9 @@ const table = `
                 "est_id": 1,
                 "est_nombre": "Ana",
                 "est_apellido": "Vega"
+                "est_email": "anvega@utn.edu.ec",
+                "est_contrasenia": "12345",
+                "est_usuario": "E100200301"
               }
           ],
           "nivel":{
@@ -375,17 +388,26 @@ const table = `
           {
             "est_id": 1,
             "est_nombre": "Ana",
-            "est_apellido": "Vega"
+            "est_apellido": "Vega",
+            "est_email": "anvega@utn.edu.ec",
+            "est_contrasenia": "12345",
+            "est_usuario": "E100200301"
           },
           {
             "est_id": 2,
             "est_nombre": "Pedro",
-            "est_apellido": "Lopez"
+            "est_apellido": "Lopez",
+            "est_email": "pelopez@utn.edu.ec",
+            "est_contrasenia": "12345",
+            "est_usuario": "E100200302"
           },
           {
             "est_id": 3,
             "est_nombre": "María",
-            "est_apellido": "Ruiz"
+            "est_apellido": "Ruiz",
+            "est_email": "maruiz@utn.edu.ec",
+            "est_contrasenia": "12345",
+            "est_usuario": "E100200303"
           }
         ]
         </code></pre>
