@@ -348,16 +348,15 @@ const table = `
       <td>getEstudianes</td>
       <td><pre><code>
         {
-          "estudiante": [
-              {
-                "est_id": 1,
-                "est_nombre": "Ana",
-                "est_apellido": "Vega"
-                "est_email": "anvega@utn.edu.ec",
-                "est_contrasenia": "12345",
-                "est_usuario": "E100200301"
-              }
-          ],
+          "estudiante":{
+            "est_id": 1,
+            "est_nombre": "Ana",
+            "est_apellido": "Vega"
+            "est_email": "anvega@utn.edu.ec",
+            "est_contrasenia": "12345",
+            "est_usuario": "E100200301"
+          }
+          ,
           "nivel":{
             "ni_id": 1,
             "ni_nivel": "Nivel 1"
