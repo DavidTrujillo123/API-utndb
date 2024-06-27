@@ -191,7 +191,7 @@ const getEstudiantes = async (req, res) => {
   try {
     const { id } = req.params;
     if (id) {
-      const estudiante = await db.any(
+      const estudiante = await db.one(
         `SELECT * FROM estudiante WHERE est_id = $1`,
         [id]
       );
